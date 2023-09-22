@@ -11,7 +11,7 @@ author_profile: true
 
 1. Teaching assistant for CS599, [Computational Complexity](https://sites.google.com/site/jiapeng0708/teaching/computational-complexity?authuser=0) Fall 2023.
 2. Teaching assistant for CS170, [Discrete Methods in Computer Science](https://viterbi-web.usc.edu/~shaddin/cs170su23/index.html), Summer 2023.
-3. Teaching assistant for CS270, [Introdution to Algorithms and the Theory of Computing], Spring 2022.
+3. Teaching assistant for CS270, Introduction to Algorithms and the Theory of Computing, Spring 2022.
 
 
 ## Mentoring Experience
