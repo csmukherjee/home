@@ -11,7 +11,7 @@ I am a third-year CS PhD student in the theory group of University of Southern C
 
 My broad areas of research are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. 
 
-In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability in biology data. See publications for more details! 
+In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability to analyze biological data. See publications for more details! 
 
 Currently, I am exploring the domains of manifold learning and denoising and downstream applications, such as visualization, both from a theoretical and an applied standpoint. Hit me up if you are interested in these topics!
 
