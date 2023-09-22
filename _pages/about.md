@@ -1,5 +1,5 @@
 ---
-permalink: home
+permalink: /
 title: "Hey there, I am Chandra!"
 excerpt: "About me"
 author_profile: true
