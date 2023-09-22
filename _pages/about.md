@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a third-year CS PhD student in the theory group of University of Southern California under the advisement of Prof. Jiapeng Zhang.
+I am a third-year CS PhD student in the theory group of University of Southern California under the advisement of Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
 
 My broad areas of research are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. 
 
