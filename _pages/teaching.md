@@ -16,6 +16,6 @@ author_profile: true
 
 ## Mentoring Experience
 
-1. Currently a **CURVE PhD mentor** for the Academic year 2023-2024, advising two students on visualization of high-dimensional data.
+1. Currently a **CURVE PhD mentor** for the Academic year 2023-2024, advising two students on the visualization of high-dimensional data.
 
 2. **SHINE Mentor** for Summer 2022.  Advised two students on the basics of PCA when applied to biological data. 
