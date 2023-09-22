@@ -18,4 +18,8 @@ author_profile: true
 
 1. Currently a **CURVE PhD mentor** for the Academic year 2023-2024, advising two students on the visualization of high-dimensional data.
 
-2. **SHINE Mentor** for Summer 2022.  Advised two students on the basics of PCA when applied to biological data. 
+   CURVE is a year-long undergraduate research program held in USC, where students actively participate in research. I will be adding more details as the semester progresses! 
+   
+3. **SHINE Mentor** for Summer 2022.  Advised two students on the basics of PCA when applied to biological data.
+
+     Shine is a K-12 outreach program held in the Summers by the Viterbi School of Engineering, where high schoolers get research exposure as well as participate in some of the work.
