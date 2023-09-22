@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Chandra Sekhar Mukhrjee"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "CS PhD student at USC"
   location         : "Los Angeles"
   employer         : 
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.co.in/citations?user=tpeHNewAAAAJ&hl=en"
+  email            : "chandrasekhar.mukherjee07@gmail.com"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "csmukherjee"
   google_plus      :
   keybase          :
   instagram        :
