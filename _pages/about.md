@@ -19,7 +19,7 @@ Currently, I am exploring the domains of manifold learning and denoising and dow
 
 ## **Beyond research!**
 
-
+Besides my research, teaching is my favorite aspect of pursuing a PhD. I have had the opportunity to TA for various courses during my time at USC, as well as take part in K-12 outreach and REU (more details in [teaching](:/teaching.html).
 
 
 A data-driven personal website
