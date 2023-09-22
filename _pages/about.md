@@ -17,7 +17,7 @@ Currently, I am exploring the domains of manifold learning and denoising and dow
 
 
 
-##Beyond research!
+## **Beyond research!**
 
 
 
