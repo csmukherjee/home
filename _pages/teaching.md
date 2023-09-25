@@ -16,9 +16,9 @@ author_profile: true
 
 ## Mentoring Experience
 
-1. Currently a **CURVE PhD mentor** for the Academic year 2023-2024, advising two students on the visualization of high-dimensional data.
-
-   CURVE is a year-long undergraduate research program held in USC, where students actively participate in research. I will be adding more details as the semester progresses! 
+1. Currently a **CURVE PhD mentor** for the Academic year 2023-2024, advising two USC undergrads on Denoising and visualization of high-dimensional datasets.
+   
+   CURVE is a year-long research program held at USC, where undergraduate students actively participate in research. I will be adding more details as the semester progresses! 
    
 3. **SHINE Mentor** for Summer 2022.  Advised two students on the basics of PCA when applied to biological data.
 
