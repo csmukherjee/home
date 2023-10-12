@@ -7,14 +7,14 @@ author_profile: true
 
 ## Conference and Journals
 
-1. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *To appear in Neurips 2023*.
+1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
+
+2. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *Neurips 2023*.
 
 
-## Preprints
+## Preprints 
 
-1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). 2023.
-
-2. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Compressibility: Power of PCA in Clustering Problems Beyond Dimensionality Reduction](https://arxiv.org/abs/2204.10888). 2022.
+1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Compressibility: Power of PCA in Clustering Problems Beyond Dimensionality Reduction](https://arxiv.org/abs/2204.10888). 2022.
 
 ## Monographs
 
