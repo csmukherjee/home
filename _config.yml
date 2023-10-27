@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Chandra Sekhar Mukherjee"
 title_separator          : "-"
-name                     :  
+name                     : &name " "
 description              : &description "PhD student, CS, USC"
 url                      : https://csmukherjee.github.io/home/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
