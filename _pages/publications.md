@@ -26,27 +26,26 @@ Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and
 
 </details>
 
-## Using statistical modeling and theory to improve inference on real-world data (with a focus on single-cell RNA seq. data):
+## Modeling and analysis of real-world graphs:
+Two of the primary reasons behind the popularity of SBM are its ability to capture certain real-world networks and its simplicity, which allows inference and understanding of various statistical and computational phenomena. However, the model can indeed be too simple to capture more complex graphs that may arise in real-world scenarios. Motivated by this, we aimed to explore the structural properties of real-world graphs with underlying communities.
+
 <details>
-In our study of SBM, we designed and analyzed algorithms for inference of community in the random graph model. Concurrently, we started thinking about whether we could use theoretical tools and modeling approaches to improve inference of structure in *real-world* datasets with underlying community structure. 
-<summary>  
- Overview:
-</summary> 
-okok
+<summary> <b> Overview: </b> </summary>
+ok
 </details>
 
 
 
 ## Publications 
 
+1.
 
-1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
+2. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Compressibility: Power of PCA in Clustering Problems Beyond Dimensionality Reduction](https://arxiv.org/abs/2204.10888). 2022.
 
-2. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *Neurips 2023*.
+3. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
 
-3. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Compressibility: Power of PCA in Clustering Problems Beyond Dimensionality Reduction](https://arxiv.org/abs/2204.10888). 2022.
+4. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *Neurips 2023*.
 
-4.
 
 ---
 ## Some pre-PhD works
