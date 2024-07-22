@@ -7,9 +7,9 @@ author_profile: true
 
 I am primarily interested in the inference of structure both in statistical models and real-world data. Here, I describe my research explorations in further detail. 
 
-
+## Unsupervised learning on statistical models (stochastic block model):
 <details>
-<summary>  <h2> <b> Unsupervised learning on statistical models (stochastic block model): </b>  </h2>
+<summary>  
   
 At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory. At this point, I came across a stochastic block model (SBM), one of the most fundamental statistical models for graph clustering. 
 </summary>
