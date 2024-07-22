@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <details>
-<summary>  <h3> <b> Unsupervised learning on statistical models (stochastic block model): </b>  </h3>
+<summary>  <h2> <b> Unsupervised learning on statistical models (stochastic block model): </b>  </h2>
 At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory. At this point, I came across a stochastic block model (SBM), one of the most fundamental statistical models for graph clustering. 
 </summary>
 
