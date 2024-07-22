@@ -15,7 +15,7 @@ This is one of the most well-studied problems in clustering, with several import
 First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community recovery algorithms for SBM graphs need *all* of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities, resulting in the publication [2].  
 
 
-### The power of power method: 
+### Vanilla algorithms: The "power" of power method: 
 
 
 1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
