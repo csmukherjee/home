@@ -6,10 +6,11 @@ author_profile: true
 ---
 
 <details>
-<summary>  <b> Unsupervised learning on statistical models (stochastic block model) </b> </summary>
+<summary>  <b> Unsupervised learning on statistical models (stochastic block model): </b> 
+At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory. At this point, I came across a stochastic block model (SBM), one of the most fundamental statistical models for graph clustering. 
+</summary>
 
-At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory, and I came across a stochastic block model (SBM), which is a random graph model for graph clustering. The simple case can be defined as follows. A graph is built on n vertices, where the vertices have a "hidden" partition into two communities. Then, each pair of vertices belonging to the same community is connected by an edge with some probability p. Each pair of vertices from different communities is connected with probability q (with p>q; assume p=0.51 and q=0.49, for example). Then, given such a graph, the task is to recover these hidden communities with high probability.  
-
+The simple case can be defined as follows. A graph is built on n vertices, where the vertices have a "hidden" partition into two communities. Then, each pair of vertices belonging to the same community is connected by an edge with some probability p. Each pair of vertices from different communities is connected with probability q (with p>q; assume p=0.51 and q=0.49, for example). Then, given such a graph, the task is to recover these hidden communities with high probability.  
 This is one of the most well-studied problems in clustering, with several important and beautiful results in the last 40 years (Read the citations in [1] for an in-depth review). However, we observed that some important problems are unresolved. 
 
 ### Unbalanced SBM: 
