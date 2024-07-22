@@ -5,7 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Conference and Journals
+## Unsupervised learning on Statistical models (stochastic block model)
+
+At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory, and I came across a stochastic block model (SBM), which is a random graph model for graph clustering. The simple case can be defined as follows. A graph is built on n vertices, where the vertices have a "hidden" partition into two communities. Then, for each pair of vertices, an edge is added with probability p (say 0.51) if they are from the same hidden community. On the other hand, if they are from different communities, an edge is added with probability q(say 0.49), with p>q. Then, given such a graph, the task is to recover the hidden communities with high probability. 
+
+
+
+
 
 1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
 
