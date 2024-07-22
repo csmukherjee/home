@@ -31,8 +31,8 @@ Two of the primary reasons behind the popularity of SBM are its ability to captu
 
 <details>
 <summary> <b> Overview: </b> </summary>
-In this direction, we focused on single-cell RNA seq data, a very influential data type in biology that has been crucial in the identification of marker genes for different types of cancer, among many other applications. Here, each data point corresponds to a cell, and a fundamental task is to partition the cells according to their underlying cell type, which is costly to obtain through biological experiments alone, necessitating the use of clustering algorithms. Here a standard pipeline is \
-
+In this direction, we focused on single-cell RNA seq data, a very influential data type in biology that has been crucial in the identification of marker genes for different types of cancer, among many other applications. Here, each data point corresponds to a cell, and a fundamental task is to partition the cells according to their underlying cell type, which is costly to obtain through biological experiments alone, necessitating the use of clustering algorithms. Here a standard pipeline is\
+\
 
 <p align=center> Data(10,000+ features) ->PCA(50-100 dimensions)-> Embedding onto a graph->graph clustering. </p>
 
