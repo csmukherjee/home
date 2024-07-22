@@ -28,10 +28,13 @@ Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and
 
 </details>
 
----
 
-## Using theory to improve inference on real-world data 
+<details>
+<summary>  <h2> <b> Using statistical modeling and theory to improve inference on real-world data: </b>  </h2>
 
+</summary> 
+
+</details>
 
 
 
