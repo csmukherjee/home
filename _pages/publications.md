@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Unsupervised learning on Statistical models (stochastic block model)
+## Unsupervised learning on statistical models (stochastic block model)
 
 At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory, and I came across a stochastic block model (SBM), which is a random graph model for graph clustering. The simple case can be defined as follows. A graph is built on n vertices, where the vertices have a "hidden" partition into two communities. Then, each pair of vertices belonging to the same community is connected by an edge with some probability p. Each pair of vertices from different communities is connected with probability q (with p>q; assume p=0.51 and q=0.49, for example). Then, given such a graph, the task is to recover these hidden communities with high probability.  
 
@@ -21,7 +21,10 @@ At this point, we observed that the algorithms that the previously state-of-the-
 Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and Van Vu in different works, and they conjectured (and in some special cases resolved) that very simple algorithms should also have near-optimal provable guarantees compared to all existing works. Motivated by this, we showed that a simple power method is able to recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. In fact, this algorithm was the first *parameter-free* algorithm that overcomes the small cluster barrier (previous works needed knowledge of the probability parameters p and q, for example). To prove the correctness of this simple algorithm, we devised certain *random partition* based ideas to analyze low-degree polynomials of random variables that we think may be of independent interest. 
 
 ---
----
+
+## Using theory to improve inference on real-world data 
+
+
 
 
 ## Publications 
