@@ -31,6 +31,7 @@ Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and
 
 <details>
 <summary>  <h2> <b> Using statistical modeling and theory to improve inference on real-world data (with a focus on single-cell RNA seq. data): </b>  </h2>
+  
 In our study of SBM, we designed and analyzed algorithms for inference of community in the random graph model. Concurrently, we started thinking about whether we could use theoretical tools and modeling approaches to improve inference of structure in *real-world* datasets with underlying community structure. 
 </summary> 
 
