@@ -29,16 +29,19 @@ First, we focused on a problem known as the ``small cluster barrier'' in the lit
 
  
 <h3> Vanilla algorithms: The "power" of power method: </h3>
+
 At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</i>. 
 In contrast, practitioners often use simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated in simplifying the proofs and not boosting the actual performance of the algorithm! 
-
+<br/>
 
 Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and Van Vu when considering spectral algorithms. They conjectured that a simple SVD-based projection of the adjacency matrix should separate the communities. 
+<br/>
 
 Motivated by this, we showed that a simple power method can recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. 
+<br/>
 
 As a consequence,
-
+<br/>
 i) We resolved the conjecture of Vu when the size of all communities is the same (balanced SBM) via a connection between SVD projection and the power of a matrix. 
 
 ii) Obtained the <i>first parameter-free</i> algorithm that overcomes the small cluster barrier (previous works needed knowledge of the probability parameters p and q, for example).
