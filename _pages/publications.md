@@ -29,21 +29,21 @@ First, we focused on a problem known as the ``small cluster barrier'' in the lit
 
  
 <h3> Vanilla algorithms: The "power" of power method: </h3>
-At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</i>. For example, in the case of dense SBM (where edge probabilities are larger than log(n)/n, the simplest algorithm is by Van Vu, as described below.
-
-<img src="https://github.com/user-attachments/files/16344227/SVD-Vu-1.pdf">
-
+At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</I>. 
+In contrast, practitioners often use simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated in simplifying the proofs and not boosting the actual performance of the algorithm! 
 
 
-with mathematicians Emmanuel Abbe and Van Vu
+Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and Van Vu when considering spectral algorithms. They conjectured that a simple SVD-based projection of the adjacency matrix should separate the communities. 
 
+Motivated by this, we showed that a simple power method can recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. 
 
+As a consequence,
 
+i) We resolved the conjecture of Vu when the size of all communities is the same (balanced SBM) via a connection between SVD projection and the power of a matrix. 
 
+ii) Obtained the <i>first parameter-free</i> algorithm that overcomes the small cluster barrier (previous works needed knowledge of the probability parameters p and q, for example).
 
-For example, our algorithm involved partitioning the graph's adjacency matrix into 8 parts, then using two parts to get a partial clustering on some of the vertices and then using the other parts to filter and expand the clustering to other vertices. Similar complex steps are often observed in provable clustering algorithms for SBM. In contrast, practitioners often use very simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated to simplify the proofs, and not to boost the actual performance of the algorithm! 
-
-Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and Van Vu in different works, and they conjectured (and in some special cases resolved) that very simple algorithms should also have near-optimal provable guarantees compared to all existing works. Motivated by this, we showed that a simple power method is able to recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. In fact, this algorithm was the first <i>parameter-free</i> algorithm that overcomes the small cluster barrier (previous works needed knowledge of the probability parameters p and q, for example). To prove the correctness of this simple algorithm, we devised certain <i>random partition</i> based ideas to analyze low-degree polynomials of random variables that we think may be of independent interest. 
+Thus, our analysis had new implications both in the balanced and unbalanced SBM. To prove the correctness of this simple algorithm, we devised certain <i>random partition</i> based ideas to analyze low-degree polynomials of random variables that we think may be of independent interest. 
 
 </details>
 
