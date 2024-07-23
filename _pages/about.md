@@ -7,13 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Third-year CS PhD student in the theory group of University of Southern California under the advisement of Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
+Third-year CS PhD student in the theory group of the University of Southern California under the advisement of Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
 
 My broad areas of research are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. 
 
-In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability to analyze biological data. See [publications](/home//publications) for more details! 
-
-Currently, I am exploring the domains of manifold learning and denoising and downstream applications, such as visualization, both from a theoretical and an applied standpoint. Hit me up if you are interested in these topics!
+In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability to analyze biological data.  Currently, I am exploring the domains of manifold learning and denoising and downstream applications, such as visualization, both from a theoretical and an applied standpoint. See [research](/home//research) for more details, and hit me up if you are interested in these topics!
 
 
 
