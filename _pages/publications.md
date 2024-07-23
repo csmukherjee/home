@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-I am primarily interested in the inference of structure both in statistical models and real-world data. Here, I describe my research explorations in further detail. 
+I am primarily interested in the inference of structure both in statistical models and real-world data. Below is a more detailed description of my research.
 
 ## Unsupervised learning on statistical models (stochastic block model):
  At the start of my PhD, I wanted to explore random structures(such as random graphs) and learning theory. At this point, I came across a stochastic block model (SBM), one of the most fundamental statistical models for graph clustering. 
@@ -16,6 +16,10 @@ The simple case can be defined as follows. A graph is built on n vertices, where
 This is one of the most well-studied problems in clustering, with several important and beautiful results in the last 40 years (Read the citations in [1] for an in-depth review). However, we observed that some important problems are unresolved. 
 
 <h3> Unbalanced SBM: </h3>
+
+<br/>
+<img src="https://github.com/user-attachments/assets/ea7653a8-19aa-49b2-b5c2-95fac9598b4c">
+
 First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving on the state-of-the-art), resulting in the publication [2].  
 
  
