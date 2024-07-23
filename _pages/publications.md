@@ -68,7 +68,7 @@ Currently, we are working on further improving the algorithms, and better unders
 ---
 ## Some pre-PhD works
 
-
+Previously, I worked under the guidance of Prof. Subhamoy Maitra during my time at ISI Kolkata, working on quantum computation and information.
 
 
 
