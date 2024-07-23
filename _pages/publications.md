@@ -29,7 +29,7 @@ First, we focused on a problem known as the ``small cluster barrier'' in the lit
 
  
 <h3> Vanilla algorithms: The "power" of power method: </h3>
-At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</I>. 
+At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</i>. 
 In contrast, practitioners often use simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated in simplifying the proofs and not boosting the actual performance of the algorithm! 
 
 
