@@ -70,7 +70,7 @@ In the aforementioned pipeline, once the data is embedded onto a graph (with a d
 
 To mitigate this issue, we proposed a novel graph structure named ``multiple core-periphery with communities'' (<b>MCPC</b>) by combining <i>community structure</i> with <i>core-periphery(CP) </i> structure [1]. Here, each community has a dense <i>core</i> and a sparser <i>periphery</i>, with inter-community edges more prevalent between peripheral vertices. In such a scenario, if we could identify just the cores from each community, they should be more separable (as they have fewer inter-community edges). To achieve this goal, we coined a new concept, called <i>relative centrality</i>, to rank the vertices of a graph such that the top-ranked vertices are core vertices of their respective communities, with each underlying community being represented fairly. 
 <br/><br/>
-We applied our algorithms to a large set of real-world single-cell datasets, and observed that the top-ranked vertices contain sufficient vertices from all the underlying (ground truth) communities, yet they are better separable through popular graph clustering algorithms (compared to the whole dataset). 
+We applied our algorithms to a large set of real-world single-cell datasets. We observed that the top-ranked vertices contain sufficient vertices from all the underlying (ground truth) communities. Yet, they are better separable by popular graph clustering algorithms than the whole graph. 
 <br/><br/>
 Currently, we are working on further improving the algorithms and better understanding the presence of MCPC structures in real-world graphs.
 
