@@ -38,8 +38,6 @@ Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and
 <br/><br/>
 
 Motivated by this, we showed that a simple power method can recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. 
-<br/><br/>
-
 As a consequence,
 <br/><br/>
 i) We resolved the conjecture of Vu when the size of all communities is the same (balanced SBM) via a connection between SVD projection and the power of a matrix. 
@@ -51,17 +49,17 @@ Thus, our analysis had new implications both in the balanced and unbalanced SBM.
 </details>
 
 ## Modeling and analysis of real-world graphs:
-Two of the primary reasons behind the popularity of SBM are its ability to capture certain real-world networks and its simplicity, which allows inference and understanding of various statistical and computational phenomena. However, the model can indeed be too simple to capture more complex graphs that may arise in real-world scenarios. Motivated by this, we aimed to explore the structural properties of real-world graphs with underlying communities.
+Two of the primary reasons behind the popularity of SBM are its ability to capture certain real-world networks and its simplicity, which allows inference and understanding of various statistical and computational phenomena. However, the model can be too simple to capture more complex graphs that may arise in real-world scenarios. Motivated by this, we aimed to explore the structural properties of real-world graphs with underlying communities.
 
 <details>
 <summary> <b> Overview: </b> </summary>
-In this direction, we focused on single-cell RNA seq data, a very influential data type in biology that has been crucial in the identification of marker genes for different types of cancer, among many other applications. Here, each data point corresponds to a cell, and a fundamental task is to partition the cells according to their underlying cell type, which is costly to obtain through biological experiments alone, necessitating the use of clustering algorithms. Here, a standard pipeline is
+In this direction, we focused on single-cell RNA seq data, a very influential data type in biology that has been crucial in identifying genes responsible for different types of cancer, among many other applications. Here, each data point corresponds to a cell, and a fundamental task is to partition the cells according to their underlying cell type, which is costly to obtain through biological experiments alone, necessitating the use of clustering algorithms. The standard pipeline is
 <br/><br/> 
   
 
 <p align=center> Data(10,000+ features) ->PCA(50-100 dimensions)-> Embedding onto a graph->graph clustering. </p>
 
-Here, the data is first passed through PCA to reduce the dimensionality and noise in the data due to experimental error and biological variance. In this direction in [2] we captured the denoising ability of PCA via a novel metric called <i>compression ratio</i>. We designed an outlier detection algorithm that improves the separability of the underlying communities in the data. We proved the effectiveness of our algorithm in a novel random vector mixture model and also verified it extensively on several real-world datasets.
+The data is first passed through PCA to reduce dimensionality and noise (due to experimental error and biological variance). In this direction in [2] we captured the denoising ability of PCA via a novel metric called <i>compression ratio</i>. We designed an outlier detection algorithm that improves the separability of the underlying communities in the data. We proved the effectiveness of our algorithm in a novel random vector mixture model and verified it extensively on several real-world datasets.
 
 <h3> Multi-core-periphery with communities (MCPC) </h3>
 
@@ -70,8 +68,10 @@ In the aforementioned pipeline, once the data is embedded onto a graph (with a d
 
 <img src="https://github.com/user-attachments/assets/87aa1f31-bc69-4108-9d6b-a4f021c3cf3f">
 
-To mitigate this issue, we proposed a novel graph structure by combining community structure with <b>core-periphery(CP) </b> structure [1]. Here, each community has a dense <i>core</i> and a sparser <i>periphery</i>, with inter-community edges more prevalent between peripheral vertices. In such a scenario, if we could identify just the cores from each community, they should be more separable (as they have fewer inter-community edges). To achieve this goal, we coined a new concept, called <i>relative centrality</i>, to rank the vertices of a graph such that the top-ranked vertices are core vertices of their respective communities, with each underlying community being represented fairly. We applied our algorithms to a large set of real-world single-cell datasets. We showed that our algorithms are more balanced at selecting different cores than existing algorithms, and indeed, the points selected by our algorithm are better separable into the underlying communities.
-
+To mitigate this issue, we proposed a novel graph structure named ``multiple core-periphery with communities'' (MCPC) by combining community structure with <b>core-periphery(CP) </b> structure [1]. Here, each community has a dense <i>core</i> and a sparser <i>periphery</i>, with inter-community edges more prevalent between peripheral vertices. In such a scenario, if we could identify just the cores from each community, they should be more separable (as they have fewer inter-community edges). To achieve this goal, we coined a new concept, called <i>relative centrality</i>, to rank the vertices of a graph such that the top-ranked vertices are core vertices of their respective communities, with each underlying community being represented fairly. 
+<br/><br/>
+We applied our algorithms to a large set of real-world single-cell datasets, and observed that the top-ranked vertices contain sufficient vertices from all the underlying (ground truth) communities, yet they are better separable through popular graph clustering algorithms (compared to the whole dataset). 
+<br/><br/>
 Currently, we are working on further improving the algorithms and better understanding the presence of MCPC structures in real-world graphs.
 
 </details>
