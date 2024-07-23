@@ -13,7 +13,7 @@ I am primarily interested in the inference of structure both in statistical mode
 <summary> <b> Overview: </b> </summary>
 
 The simple case can be defined as follows. A graph is built on n vertices, where the vertices have a "hidden" partition into two communities. Then, each pair of vertices belonging to the same community is connected by an edge with some probability p. Each pair of vertices from different communities is connected with probability q (with p>q; assume p=0.51 and q=0.49, for example). Then, given such a graph, the task is to recover these hidden communities with high probability.  
-This is one of the most well-studied problems in clustering, with several important and beautiful results in the last 40 years (Read the citations in [1] for an in-depth review). However, we observed that some important problems are unresolved. 
+This is one of the most well-studied problems in clustering, with several important and beautiful results in the last 40 years (Read references in [1] for an in-depth review). However, we observed that some important problems are unresolved. 
 
 <h3> Unbalanced SBM: </h3>
 
@@ -23,11 +23,25 @@ This is one of the most well-studied problems in clustering, with several import
 class="center">
 </center>
  
-First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community (cluster) recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving on the state-of-the-art), resulting in the publication [2].  
+First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community (cluster) recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving significantly on the state-of-the-art), resulting in the publication [2].  
+
+
 
  
 <h3> Vanilla algorithms: The "power" of power method: </h3>
-At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</i>. For example, our algorithm involved partitioning the graph's adjacency matrix into 8 parts, then using two parts to get a partial clustering on some of the vertices and then using the other parts to filter and expand the clustering to other vertices. Similar complex steps are often observed in provable clustering algorithms for SBM. In contrast, practitioners often use very simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated to simplify the proofs, and not to boost the actual performance of the algorithm! 
+At this point, we observed that the algorithms that the previously state-of-the-art algorithms for the aforementioned problems, as well as our algorithms, were somewhat <i>complex</i>. For example, in the case of dense SBM (where edge probabilities are larger than log(n)/n, the simplest algorithm is by Van Vu, as described below.
+
+<img src="https://github.com/user-attachments/files/16344227/SVD-Vu-1.pdf">
+
+
+
+with mathematicians Emmanuel Abbe and Van Vu
+
+
+
+
+
+For example, our algorithm involved partitioning the graph's adjacency matrix into 8 parts, then using two parts to get a partial clustering on some of the vertices and then using the other parts to filter and expand the clustering to other vertices. Similar complex steps are often observed in provable clustering algorithms for SBM. In contrast, practitioners often use very simple algorithms (such as spectral clustering) to recover clusters on real-world graphs. Thus, it seemed that the algorithms were complicated to simplify the proofs, and not to boost the actual performance of the algorithm! 
 
 Indeed, this phenomenon was observed by mathematicians such as Emmanuel Abbe and Van Vu in different works, and they conjectured (and in some special cases resolved) that very simple algorithms should also have near-optimal provable guarantees compared to all existing works. Motivated by this, we showed that a simple power method is able to recover the communities and is logarithmically tight compared to best-known bounds [1]. Our algorithm is very simple. You first centralize the adjacency matrix of the graph and then take log(n)-th power of this matrix. We showed that in this powered matrix, rows belonging to vertices from the same community would have much less Euclidean distance than the inter-community rows. In fact, this algorithm was the first <i>parameter-free</i> algorithm that overcomes the small cluster barrier (previous works needed knowledge of the probability parameters p and q, for example). To prove the correctness of this simple algorithm, we devised certain <i>random partition</i> based ideas to analyze low-degree polynomials of random variables that we think may be of independent interest. 
 
