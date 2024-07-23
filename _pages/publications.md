@@ -23,7 +23,7 @@ This is one of the most well-studied problems in clustering, with several import
 class="center">
 </center>
  
-First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving on the state-of-the-art), resulting in the publication [2].  
+First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community (cluster) recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving on the state-of-the-art), resulting in the publication [2].  
 
  
 <h3> Vanilla algorithms: The "power" of power method: </h3>
