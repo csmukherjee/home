@@ -42,8 +42,7 @@ Here, the data is first passed through PCA to reduce the dimensionality and nois
 ### Multi-core-periphery with communities (MCPC)
 
 In the aforementioned pipeline, once the data is embedded onto a graph (with a datapoint-vertex correspondence), one applies graph clustering algorithms to recover the underlying communities (cell-type). Here, it is important to note that the clustering algorithm's success depends on the correctness of our assumption about the graph's communities. One of the most popular assumptions is **community structure**, where all vertices from a community have more intra-community edges than inter-community edges (For example, SBM graphs follow this assumption). However, algorithms based on this assumption often have subpar performance on real-world datasets. 
-
-![alt text]([https://drive.google.com/file/d/1LkogmdPvQ-dWzzlCWcNN1lN82TL2_oTm/view?usp=drive_link](https://drive.google.com/file/d/12B0eP8wj6S4DZuD0YKWcWvEBrfqpOVX2/view?usp=sharing))
+![CP-generic_page-0001](https://github.com/user-attachments/assets/87aa1f31-bc69-4108-9d6b-a4f021c3cf3f)
 
 To mitigate this issue, we proposed a novel graph structure by combining community structure with **core-periphery** structure [1]. Here, each community has a dense *core* and a sparser *periphery*, with inter-community edges more prevalent between peripheral vertices. In such a scenario, if we were able to identify just the cores from each community, they should be more separable (as they have fewer inter-community edges). To achieve this goal we coined a new concept, called *relative centrality* to rank the vertices of a graph such that the top ranked vertices are core vertices of their respective communities, with each underlying community being represented fair
 
