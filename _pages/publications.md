@@ -42,7 +42,7 @@ Here, the data is first passed through PCA to reduce the dimensionality and nois
 <h3> Multi-core-periphery with communities (MCPC) </h3>
 
 In the aforementioned pipeline, once the data is embedded onto a graph (with a datapoint-vertex correspondence), one applies graph clustering algorithms to recover the underlying communities (cell-type). Here, it is important to note that the clustering algorithm's success depends on the correctness of our assumption about the graph's communities. One of the most popular assumptions is **community structure**, where all vertices from a community have more intra-community edges than inter-community edges (For example, SBM graphs follow this assumption). However, algorithms based on this assumption often have subpar performance on real-world datasets. 
-<br/>
+<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/87aa1f31-bc69-4108-9d6b-a4f021c3cf3f">
 
