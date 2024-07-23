@@ -9,7 +9,7 @@ redirect_from:
 ---
 Rising fourth-year CS PhD student in the theory group of the University of Southern California under the advisement of Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
 
-My broad research areas are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. 
+My broad research areas are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. I also enjoy working on purely combinatorial problems :) 
 
 In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability to analyze biological data. Currently, I am exploring unsupervised learning on real-world data, using statistical modeling to design effective algorithms. See [research](/home//research) for more details. 
 
