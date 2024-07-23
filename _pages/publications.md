@@ -18,7 +18,7 @@ This is one of the most well-studied problems in clustering, with several import
 <h3> Unbalanced SBM: </h3>
 
 <br/>
-<img src="https://github.com/user-attachments/assets/ea7653a8-19aa-49b2-b5c2-95fac9598b4c",style="width: 40vw">
+<img src="https://github.com/user-attachments/assets/ea7653a8-19aa-49b2-b5c2-95fac9598b4c" style="width: 40vw">
 
 First, we focused on a problem known as the ``small cluster barrier'' in the literature. This refers to the fact that most community recovery algorithms for SBM graphs need <i>all</i> of the hidden communities to be significantly large. Even if one cluster is very small, the guarantees of these algorithms fail. In this direction, we designed a spectral algorithm that recovers large communities in the presence of arbitrarily small communities (improving on the state-of-the-art), resulting in the publication [2].  
 
