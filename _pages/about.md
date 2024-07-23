@@ -11,8 +11,9 @@ Rising fourth-year CS PhD student in the theory group of the University of South
 
 My broad research areas are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. I also enjoy working on purely combinatorial problems :) 
 
-In the first two years of PhD, I primarily focused on spectral algorithms and their ability to solve fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), as well as understanding their ability to analyze biological data. Currently, I am exploring unsupervised learning on real-world data, using statistical modeling to design effective algorithms. See [research](/home//research) for more details. 
+In my three years of PhD, I focused on unsupervised learning, first focusing on fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), and then trying to understand the structure of real-world graphs, such as graphs obtained from biological data. See [research](/home//research) for more details. 
 
+Currently, I am working on further characterizing real-world data and designing provable algorithms for tasks such as visualization and clustering. Additionally, I am exploring statistical-computational gaps in fundamental statistical problems (such as the planted clique problem). 
 
 
 ## **Teaching**
