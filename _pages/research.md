@@ -80,7 +80,7 @@ Currently, we are working on further improving the algorithms and better underst
 
 ## Publications 
 
-1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [A multi-core periphery perspective: Ranking via relative centrality]([https://arxiv.org/abs/2204.10888](https://arxiv.org/abs/2406.04487))(https://arxiv.org/abs/2406.04487). *ICLR 2025*
+1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Balanced Ranking with Relative Centrality: A multi-core periphery perspective](https://openreview.net/pdf?id=21rSeWJHPF). *ICLR 2025*
 
 2. Chandra Sekhar Mukherjee, Nikhil Deorkar, and Jiapeng Zhang, [Capturing the Denoising Effect of PCA via Compression Ratio](https://arxiv.org/abs/2204.10888). *NeurIPS 2024*.
 
