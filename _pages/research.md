@@ -80,13 +80,16 @@ Currently, we are working on further improving the algorithms and better underst
 
 ## Publications 
 
-1. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Balanced Ranking with Relative Centrality: A multi-core periphery perspective](https://openreview.net/pdf?id=21rSeWJHPF). *ICLR 2025*
+1. Chandra Sekhar Mukherjee, Joonyoung Bae, Jiapeng Zhang, [CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry](https://arxiv.org/abs/2507.08243). *Preprint*
 
-2. Chandra Sekhar Mukherjee, Nikhil Deorkar, and Jiapeng Zhang, [Capturing the Denoising Effect of PCA via Compression Ratio](https://arxiv.org/abs/2204.10888). *NeurIPS 2024*.
 
-3. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
+2. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Balanced Ranking with Relative Centrality: A multi-core periphery perspective](https://openreview.net/pdf?id=21rSeWJHPF). *ICLR 2025*
 
-4. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *Neurips 2023*.
+3. Chandra Sekhar Mukherjee, Nikhil Deorkar, and Jiapeng Zhang, [Capturing the Denoising Effect of PCA via Compression Ratio](https://arxiv.org/abs/2204.10888). *NeurIPS 2024*.
+
+4. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Detecting Hidden Communities by Power Iterations with Connections to Vanilla Spectral Algorithms](https://arxiv.org/pdf/2211.03939.pdf). *SODA 2024*.
+
+5. Chandra Sekhar Mukherjee, Pan Peng, and Jiapeng Zhang, [Recovering Unbalanced Communities in the Stochastic Block Model With Application to Clustering with a Faulty Oracle](https://arxiv.org/abs/2202.08522). *Neurips 2023*.
 
 
 ---
