@@ -12,13 +12,10 @@ Fourth-year CS PhD student at the University of Southern California, working wit
 
 My broad research areas are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. I also enjoy working on purely combinatorial problems :) 
 
-In my three years of PhD, I explored unsupervised learning from a random matrix theoretic perspective, first focusing on fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), and then trying to understand the structure of real-world graphs, such as graphs obtained from biological data. See [research](/home//research) for more details. 
+In my four years of PhD, I explored unsupervised learning from a random matrix theoretic perspective, first focusing on fundamental models of graph clustering, such as community detection in the stochastic block model (SBM), and then trying to understand the structure of real-world graphs, such as graphs obtained from biological data. See [research](/home//research) for more details. 
 
 Currently, I am working on better characterizing the geometry in real-world data and designing provable algorithms for tasks such as visualization and clustering.
 
-## **Updates**
-
-I will be attending NeurIPS 2024 in Vancouver to present my joint work with Nikhil Deorkar and Jiapeng Zhang, ``Capturing the denoising effect of PCA via compression ratio''. Let me know if you want to chat about the aforementioned topics!  
 
 
 ## **Teaching**
