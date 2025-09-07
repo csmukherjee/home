@@ -80,7 +80,7 @@ Currently, we are working on further improving the algorithms and better underst
 
 ## Publications 
 
-1. Chandra Sekhar Mukherjee, Joonyoung Bae, Jiapeng Zhang, [CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry](https://arxiv.org/abs/2507.08243). *Preprint*
+1. Chandra Sekhar Mukherjee, Joonyoung Bae, and Jiapeng Zhang, [CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry](https://arxiv.org/abs/2507.08243). *Preprint*
 
 
 2. Chandra Sekhar Mukherjee and Jiapeng Zhang, [Balanced Ranking with Relative Centrality: A multi-core periphery perspective](https://openreview.net/pdf?id=21rSeWJHPF). *ICLR 2025*
