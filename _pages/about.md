@@ -16,6 +16,8 @@ In my four years of PhD, I explored unsupervised learning from a random matrix t
 
 Currently, I am working on better characterizing the geometry in real-world data and designing provable algorithms for tasks such as visualization and clustering.
 
+## **Updates** 
+We have released our new package [cplearn](https://github.com/csmukherjee/cplearn), a novel unsupervised inference tool for layer-extraction, clustering, and visualization. More updates to follow.
 
 
 ## **Teaching**
