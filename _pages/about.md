@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Fourth-year CS PhD student at the University of Southern California, working with Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
+Fifth-year CS PhD student at the University of Southern California, working with Prof. [Jiapeng Zhang](https://sites.google.com/site/jiapeng0708/home).
 
 
 My broad research areas are theoretical computer science and unsupervised learning, with a keen interest in random matrix theory and manifold learning. I also enjoy working on purely combinatorial problems :) 
