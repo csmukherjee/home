@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Geometric core-periphery structures in real-world"
+title: "Geometric core–periphery structures in real-world data"
 permalink: /lcpdm/
 author_profile: true
 ---
@@ -10,7 +10,6 @@ author_profile: true
         height="900px"
         frameborder="0"
         loading="lazy"></iframe>
-
 
 <p><a href="/assets/lcpdm.html" target="_blank">
   Open full interactive version
