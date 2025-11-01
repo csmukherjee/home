@@ -15,6 +15,9 @@ main:
 
   - title: "On density-geometry correlations"
     url: /assets/lcpdm.html
+    external: true
+
+
 
   #- title: "Blog Posts"
   #  url: /year-archive/

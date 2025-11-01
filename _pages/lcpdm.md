@@ -1,16 +1,10 @@
 ---
 layout: archive
-title: "Geometric core–periphery structures in real-world data"
+title: "On density-geometry correlations"
 permalink: /lcpdm/
 author_profile: true
 ---
 
 <iframe src="/home/assets/lcpdm.html"
-        width="100%"
-        height="900px"
-        frameborder="0"
+        style="display:block;width:100vw;height:100vh;border:none;margin-left:calc(-50vw + 50%);"
         loading="lazy"></iframe>
-
-<p><a href="/home/assets/lcpdm.html" target="_blank">
-  Open full interactive version
-</a></p>
