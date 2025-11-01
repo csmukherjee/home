@@ -14,3 +14,20 @@ author_profile: true
 <p><a href="/home/assets/lcpdm.html" target="_blank">
   Open full interactive version
 </a></p>
+
+
+<style>
+.page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 900px;
+  border: none;
+}
+</style>
+
