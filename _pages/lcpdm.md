@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: archive
 title: "Geometric core–periphery structures in real-world data"
 permalink: /lcpdm/
 author_profile: true
