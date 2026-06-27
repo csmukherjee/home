@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hey there, I am Chandra! Short for Chandrasekhar (which somehow ended up as "Chandra Sekhar" on official paperwork)"
+title: "Hey there, I am Chandra! Short for Chandrasekhar (which somehow ended up as \"Chandra Sekhar\" on official paperwork)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -26,9 +26,6 @@ I have joined Fred Hutchinson Cancer Center as a postdoctoral research fellow, s
 ## **Teaching**
 
 Besides my research, teaching is my favorite aspect of pursuing a PhD. I have had the opportunity to be a TA for various courses during my time at USC, as well as take part in K-12 outreach and REU (more details in [teaching](/home//teaching)). I look forward to teaching a full course at some point in the near future.
-
----
-
 
 
 
