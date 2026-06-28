@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "Hey there, I am Chandra! Short for Chandrasekhar (which somehow ended up as \"Chandra Sekhar\" on official paperwork)"
+title: "Hey there, I am Chandra!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<small>Short for Chandrasekhar (which somehow ended up as "Chandra Sekhar" on official paperwork).</small>
+
 I am a postdoctoral research fellow at the Fred Hutchinson Cancer Center in the [JSB lab](https://jsb-lab.org/), hosted by the wonderful [Jessica Li](https://jsb-lab.org/people/jingyi-jessica-li/). My research focuses on characterizing and exploiting structure in high-dimensional biological data to obtain a deeper understanding of cellular and molecular processes. 
 
 I graduated in May of 2026 with a PhD in Computer Science from the University of Southern California. My primary research focus was on the theoretical and applied aspects of unsupervised learning, spanning manifold clustering, dimensionality reduction, and community detection for stochastic block models. My PhD advisor was Prof. Jiapeng Zhang.
